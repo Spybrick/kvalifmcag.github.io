@@ -1,0 +1,146 @@
+.main {
+  width: 100%;
+  height: 90%;
+  background-image: url(background/wallpaper.jpg);
+}
+.one {
+  font-size: 55;
+  height: 17%;
+}
+.two {
+  font-size: 25;
+}
+.bok {
+float: left;
+width: 303px;
+height: 70%;
+/* background-color: gray; */
+}
+.pogoda {
+width: 200px;
+height:100px;
+margin: 0 auto;
+}
+.inbok {
+  width: 303px;
+  height:300px;
+  /* background-color: red; */
+}
+.time {
+  width: 300px;
+  height:280px;
+  margin: 100 auto;
+  /* background-color: blue; */
+}
+.three {
+  background-image: url("Background/main.jpg");
+  margin: 0 auto;
+  height: auto;
+  width: 1290px;
+  font-size: 25;
+  border: 4px double black;
+}
+.menu {
+  width: 100%;
+  height: 78px;
+}
+.picture {
+  float: left;
+}
+.bottom {
+  width: 100%;
+  height: 10%;
+  background-image: url("Background/bottom.jpg");
+  float: left;
+  font-size: 25;
+}
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {margin:0;}
+h2 {
+  font-family: monospace;
+  color: #606060;
+}
+ul {
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+i {
+  margin-right: 10px;
+}
+nav {
+  display: block;
+  width: 1170px;
+  margin: 0 auto 30px;
+}
+.one p{
+  padding-top: 35px;
+  padding-left: 700px;
+}
+
+.two ul {
+  padding: 0;
+  background: #87CEFA;
+}
+.two li {
+  display: inline-block;
+}
+.two a {
+  padding: 1em;
+  display: block;
+  color: blue;
+  border-right: 1px solid #00008B;
+  background: #00BFFF;
+}
+.two a:hover {
+  background: #1E90FF}
+.three p{
+  margin: 0;
+}
+.h1{
+  border-bottom: 2px solid bisque;
+  padding-bottom: 5px;
+  text-shadow: black 0 0 5px;
+}
+.imgcenter{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+.three li {
+  color: white;
+  text-shadow: black 0 0 5px;
+}
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+.text {
+  font-size: 150%;
+  text-shadow: black 0 0 5px;
+  text-align: center;
+}
+.gallery img{
+margin:15px;
+border:3px solid #fff;
+}
+a.photo:hover img{
+border:3px solid #034F80;
+}

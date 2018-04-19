@@ -1,0 +1,164 @@
+<html>
+<head>
+  <title>Cloudy</title>
+    <meta charset="utf-8">
+      <link href="1.css" rel="stylesheet">
+        <script type="text/javascript"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script>
+          <style>
+          .stroke {
+            color: #f2faff;
+            text-shadow: #0769b2 1px 1px 0, #0769b2 2px 2px 0,
+                          #000000 3px 3px 0, #000000 4px 4px 0,
+                          #0000 5px 5px 0;
+             }
+          .stroke1 {
+            font-size: 150%;
+            text-shadow: black 0 0 5px;
+            }
+          .stroke2 {
+            text-shadow: black 1px 1px 0, black 2px 2px 0;
+            }
+            </style>
+</head>
+<body>
+  <div class="main">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="Scripts/jquery.backgroundvideo.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        var videobackground = new $.backgroundVideo($('body'), {
+          "align": "centerXY",
+          "width": 1280,
+          "height": 720,
+          "path": "Background/",
+          "filename": "clouds",
+          "types": ["mp4","ogg","webm"],
+          "preload": true,
+          "autoplay": true,
+          "loop": true
+        });
+      });
+    </script>
+    <div class="one">
+      <img  src="Background/mcag.png" class="picture">
+      <p class="stroke" style="margin: 0px"><font face="Impact">Облачные технологии</font></p>
+    </div>
+    <div class="menu">
+      <nav class="two">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home fa-fw"></i>Главная</a></li>
+          <li><a href="1.html">Определение</a></li>
+          <li><a href="2.html">История</a></li>
+          <li><a href="3.html">Качества</a></li>
+          <li><a href="#">Примеры</a></li>
+          <li><a href="5.html">Фотогалерея</a></li>
+          <li><a href="6.html">Видео курс</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="bok">
+        <div class="pogoda">
+          <a href="https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://yandex.ru/pogoda/213" target="_blank"><img src="https://info.weather.yandex.net/213/2_white.ru.png?domain=ru" border="0" alt="Яндекс.Погода"/><img width="1" height="1" src="https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif" alt="" border="0"/></a>
+        </div>
+          <div class="inbok">
+            <div class="time">
+              <iframe  frameborder="no" scrolling="no" width="300" height="280" src="https://yandex.ru/time/widget/?geoid=213&lang=ru&layout=vert&type=analog&face=digits"></iframe>
+            </div>
+          </div>
+      </div>
+        <div class="three">
+          <h1 class=h1 align=center><font color="white">Актуальные облачные сервисы.</font></h1>
+            <ul type="disc">
+              <p align="left" class=text><font size="7" color="white">1. Google Диск</font></p>
+                <img src="Background/Google.png" class="imgcenter" />
+              <p align="left" class=stroke1><font size="5" color="white">Облачное хранилище от Google заслужено занимает первое место. Лишь один раз оно изменило объем бесплатного пространства, объединив пространство с Gmail и Google+, но взамен увеличив его с 5 до 15 Гб.</font></p>
+                <br>
+              <p align="left" class=stroke1><font size="5" color="white">Количество поддерживаемых форматов является рекордным среди всех других хранилищ. Есть и свой офисный пакет, которые многие считают эталонным. Добавим сюда бонус в виде не учитываемого пространства занимаемого рядом форматов, фотографиями и видео в не самом большом разрешении, а также интеграцию в Android и многие приложения и получим заслуженное первое место.</font><p>
+                <br>
+                  <p align="left" class=text><font size="7" color="white">2. OneDrive</font></p>
+                    <img src="Background/OneDrive.png" class="imgcenter" />
+                  <p align="left" class=stroke1><font size="5" color="white">Ранее хранилище было известно, как SkyDrive. В прошлом году OneDrive огорчил многих пользователей, снизив бесплатное пространство с 15 до 5 Гб, при этом те, кто вовремя не перешли по ссылке, потеряли даже то пространство, которое имели ранее.</font></p>
+                    <br>
+                  <p align="left" class=stroke1><font size="5" color="white">OneDrive уже давно не просто облачное хранилище. Поддерживается огромное количество форматов, сервис интегрирован в большое количество приложений. Не говоря уже про Office Online, который является одним из лучших онлайновых офисных пакетов.</font></p>
+                    <br>
+                  <p align="left" class=stroke1><font size="5" color="white">Можно приобрести дополнительное пространство отдельно, но куда радует, что при покупке некоторых устройств или оплаты подписки на Microsoft Office 365, дается достаточно много облачного пространства, как дополнительный бонус (в случаи с подпиской на офис – 1 Тб).</font></p>
+                    <br>
+                      <p align="left" class=text><font size="7" color="white">3. Dropbox</font></p>
+                        <img src="Background/Dropbox.jpg" class="imgcenter" />
+                      <p align="left" class=stroke1><font size="5" color="white">Эталонное облачное хранилище. Именно с него начался как таковой «бум» облачных хранилищ. Поддерживает огромное количество форматов. Одно из самых часто интегрируемых в приложения хранилище. Многие приложения используют и по сей день синхронизацию данных именно через Dropbox, а не сторонние сервера.</font></p>
+                        <br>
+                      <p align="left" class=stroke1><font size="5" color="white">Работает стабильно, развивается и получает новые возможности и поддержку новых форматов – достаточно часто. В последние годы дела у разработчика идут не столь хорошо. Сервисы Mailbox и Carusel были закрыты им, а бесплатное пространство, которого и так 2 Гб, начали ограничивать в возможностях. Акции по увеличению места – тоже стали редкостью.</font><p>
+                        <br>
+                          <p align="left" class=text><font size="7" color="white">4. Облако Mail.Ru</font></p>
+                            <img src="Background/Mail.png" class="imgcenter" />
+                          <p align="left" class=stroke1><font size="5" color="white">Конкурент Яндекс.Диска. Одно из самых молодых хранилищ в данном топе. Бесплатно дает 25 Гб пространства. Продолжает развиваться. Приложения для мобильных платформ, уже сейчас может похвастаться рядом возможностей, которых нет у конкурентов, к примеру, прямой стриминг музыки из вашего хранилища. Несмотря на небольшой срок жизни, облаком пользуются многие, что, во многом диктуется именем и акциями с бесплатными гигабайтами, которые проводились ранее.</font></p>
+                            <br>
+                              <p align="left" class=text><font size="7" color="white">5. Яндекс.Диск</font></p>
+                                <img src="Background/Yandex.png" class="imgcenter" />
+                              <p align="left" class=stroke1><font size="5" color="white">Стабильное облачное хранилище от Яндекса. Работает достаточно быстро, продолжает исправно получать новые возможности. Многие приложения уже интегрировали его в свои приложения.</font></p>
+                                <br>
+                              <p align="left" class=stroke1><font size="5" color="white">Имеет клиенты под большинство популярных приложений. Хорошая тех. поддержка тоже в наличии. Бесплатно дается 10 Гб. Для русскоязычных стран, очень часто остается одним из лучших выборов – во многом благодаря скорости синхронизации.</font><p>
+                                <br>
+                                  <p align="left" class=text><font size="7" color="white">6. iCloud</font></p>
+                                    <img src="Background/iCloud.jpg" class="imgcenter" />
+                                  <p align="left" class=stroke1><font size="5" color="white">Официальное облачное хранилище от Apple. Крепко накрепко привязано к экосистеме компании. В последние годы все изменения сводились больше к внутренней части, чем к визуальным. Работает качественно, возможностей – достаточно, но есть существенное ограничение в виде доступных платформ. iCloud работает со всеми операционными системами Apple, и есть приложение для Windows. Если хотите установить iCloud на Android, или Linux – продолжайте хотеть дальше, приложений для работы с данным облачным хранилищем нет. Но если вы фанат Apple – маловероятно что понадобится что-то большее.</font></p>
+                                    <br>
+                                      <p align="left" class=text><font size="7" color="white">7. Box</font></p>
+                                        <img src="Background/Box.jpg" class="imgcenter" />
+                                      <p align="left" class=stroke1><font size="5" color="white">Одно из старейших облачных хранилищ. Изначально позиционировало себя как решение для бизнеса. Бесплатно дает 10 Гб пространства. Поддержка Box интегрировано в очень большое количество приложений. Работает облако без нареканий, но в бесплатных аккаунтах введено очень много ограничений, даже размер файла, загружаемого в облако и тот – сильно ограничен.</font></p>
+                                        <br>
+                                          <p align="left" class=text><font size="7" color="white">8. MEGA</font></p>
+                                            <img src="Background/MEGA.png" class="imgcenter" />
+                                          <p align="left" class=stroke1><font size="5" color="white">Облачное хранилище, основателем которого является довольно известный Ким Дотком. Сейчас, к сожалению, Дотком не занимается им. Предлагает достаточно высокий уровень шифрования, приложения под популярные операционные системы и 50 Гб бесплатного пространства. И из-за последнего, многие выбрали именно MEGA в качестве основного облачного хранилища.</font></p>
+                                            <br>
+                                              <p align="left" class=text><font size="7" color="white">9. MediaFire</font></p>
+                                                <img src="Background/MediaFire.jpg" class="imgcenter" />
+                                              <p align="left" class=stroke1><font size="5" color="white">В прошлом, MediaFire был знаком многим как файлообменник, но вовремя сумел переквалифицироваться в облачное хранилище. Бесплатно дает 10 Гб пространства с возможностью расширить его.</font></p>
+                                                <br>
+                                              <p align="left" class=stroke1><font size="5" color="white">Приложений под различные платформы пока не много. Однако, в отличии от многих других облачных хранилищ, MediaFire монетизируется не только за счет продажи дополнительного пространства, но и за счет показа рекламы. Когда вы делитесь ссылкой, до того, как нажимаете кнопку скачивания, показывается небольшая баннерная реклама, она не мешает, но приносит доход, благодаря которому, хочется верить, что облачное хранилище будет жить еще не один год.</font><p>
+                                                <br>
+                                                  <p align="left" class=text><font size="7" color="white">10. Gavitex</font></p>
+                                                    <img src="Background/Gavitex.png" class="imgcenter" />
+                                                  <p align="left" class=stroke1><font size="5" color="white">Раньше данное облачное хранилище называлось DepositCloud. Созданное командой довольно популярного файлообменника DepositFiles, Givitex предлагает обычные возможности облачного хранилище – 25 Гб. Есть приложения для Windows, macOS, iOS и Android. Поддержкой разнообразных форматов и другими возможностями, Givitex пока не может похвастаться. Отсюда и 10 место.</font></p>
+                                                    <br>
+                                                      <a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+            </ul>
+        </div>
+          <div class="bottom">
+            <p align=center class="stroke2"><font face="Impact" color="white">Рунов Александр Александрович группа ИС 1-14</font></p>
+          </div>
+  </div>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,131 @@
+<html>
+<head>
+  <title>Cloudy</title>
+    <meta charset="utf-8">
+      <link href="1.css" rel="stylesheet">
+        <script type="text/javascript"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script>
+          <style>
+          .stroke {
+            color: #f2faff;
+            text-shadow: #0769b2 1px 1px 0, #0769b2 2px 2px 0,
+                          #000000 3px 3px 0, #000000 4px 4px 0,
+                          #0000 5px 5px 0;
+             }
+          .stroke1 {
+            font-size: 150%;
+            text-shadow: black 0 0 5px;
+            }
+          .stroke2 {
+            text-shadow: black 1px 1px 0, black 2px 2px 0;
+            }
+            </style>
+</head>
+<body>
+  <div class="main">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="Scripts/jquery.backgroundvideo.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        var videobackground = new $.backgroundVideo($('body'), {
+          "align": "centerXY",
+          "width": 1280,
+          "height": 720,
+          "path": "Background/",
+          "filename": "clouds",
+          "types": ["mp4","ogg","webm"],
+          "preload": true,
+          "autoplay": true,
+          "loop": true
+        });
+      });
+    </script>
+    <div class="one">
+      <img  src="Background/mcag.png" class="picture">
+      <p class="stroke" style="margin: 0px"><font face="Impact">Облачные технологии</font></p>
+    </div>
+    <div class="menu">
+      <nav class="two">
+        <ul>
+          <li><a href="index.html"><i class="fa fa-home fa-fw"></i>Главная</a></li>
+          <li><a href="1.html">Определение</a></li>
+          <li><a href="2.html">История</a></li>
+          <li><a href="#">Качества</a></li>
+          <li><a href="4.html">Примеры</a></li>
+          <li><a href="5.html">Фотогалерея</a></li>
+          <li><a href="6.html">Видео курс</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="bok">
+        <div class="pogoda">
+          <a href="https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://yandex.ru/pogoda/213" target="_blank"><img src="https://info.weather.yandex.net/213/2_white.ru.png?domain=ru" border="0" alt="Яндекс.Погода"/><img width="1" height="1" src="https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif" alt="" border="0"/></a>
+        </div>
+          <div class="inbok">
+            <div class="time">
+              <iframe  frameborder="no" scrolling="no" width="300" height="280" src="https://yandex.ru/time/widget/?geoid=213&lang=ru&layout=vert&type=analog&face=digits"></iframe>
+            </div>
+          </div>
+      </div>
+        <div class="three">
+          <h1 class=h1 align=center><font color="white">Преимущества и недостатки.</font></h1>
+            <p align="left" class=stroke1 align=center><font size="5" color="white"><b>Преимущества:</b></font></p>
+              <ul type="disc">
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Не требуются большие вычислительные мощности ПК- по сути любой смартфон,планшет и т.д.,при открытии окна браузера получает огромные потенциал.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Отказоустойчивость.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Высокая скорость обработки данных.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Экономия на покупке софта - все необходимые программы уже есть в сервисе. Где будут работать.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Ваш собственный винчестер не переполняется - все данные хранятся в сети.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Доступность - облака доступны всем, из любой точки, где есть Интернет, с любого компьютера, где есть браузер.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Безопасность - "облачные" сервисы имеют достаточно высокую безопасность при должном её обеспечении, однако при халатном отношении эффект может быть полностью противоположным.</font></p></li>
+                <li><p align="left" class=stroke1 align=center><font size="5" color="white">Надежность - надежность "облаков", особенно находящихся в специально оборудованных ЦОД (Центр Обработки Данных), очень высокая, так как такие ЦОД имеют резервные источники питания, охрану, профессиональных работников, регулярное резервирование данных, высокую пропускную способность Интернета-канала, высокая устойчивость к DDOS-атакам.</font></p></li>
+              </ul>
+                <br>
+                  <p align="left" class=stroke1 align=center><font size="5" color="white"><b>Недостатки:</b></font></p>
+                    <ul type="disc">
+                      <li><p align="left" class=stroke1 align=center><font size="5" color="white">Облачная услуга предоставляется всегда какой-либо компанией, соответственно, сохранности пользовательских данных зависит от этой компании.</font></p></li>
+                      <li><p align="left" class=stroke1 align=center><font size="5" color="white">Появление облачных монополистов.</font></p></li>
+                      <li><p align="left" class=stroke1 align=center><font size="5" color="white">Необходимость быть всегда в сети для работы.</font></p></li>
+                      <li><p align="left" class=stroke1 align=center><font size="5" color="white">Дороговизна оборудования - для построения собственного "облака" компании необходимо выделить значительные материальные реусурсы, что может быть выгодно только большими компаниями.</font></p></li>
+                    </ul>
+                      <img src="Background/9.jpg" class="imgcenter" />
+                        <a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+        </div>
+          <div class="bottom">
+            <p align=center class="stroke2"><font face="Impact" color="white">Рунов Александр Александрович группа ИС 1-14</font></p>
+          </div>
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
